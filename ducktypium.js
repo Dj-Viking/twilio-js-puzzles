@@ -64,7 +64,7 @@ class Ducktypium {
   console.log(dt.refract('red')); // prints 'purple'
   console.log(dt.refract('yellow')); // prints 'orange'
   console.log(dt.refract("blue")); // prints "green"
-  //console.log(dt.refract("pwiepajf"));
+  //console.log(dt.refract("pwiepajf")); //throws error
   
   dt.calibrate([3, 5, 1]);
   
