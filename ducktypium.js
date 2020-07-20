@@ -29,17 +29,17 @@ class Ducktypium {
         if (this.refractColor === this.color){
             return this.color;
         } else if (this.refractColor === "red" && this.color === "blue" || 
-            this.refractColor === "blue" && this.color === "red"){
-                this.refractColor = "purple";
-                return this.refractColor;
+                   this.refractColor === "blue" && this.color === "red"){
+            this.refractColor = "purple";
+            return this.refractColor;
         } else if (this.refractColor === "yellow" && this.color === "red" || 
-            this.refractColor === "red" && this.color === "yellow"){
-                this.refractColor = "orange";
-                return this.refractColor;
+                   this.refractColor === "red" && this.color === "yellow"){
+            this.refractColor = "orange";
+            return this.refractColor;
         } else if (this.refractColor === "blue" && this.color === "yellow" ||
-            this.refractColor === "yellow" && this.color === "blue"){
-                this.refractColor = "green";
-                return this.refractColor;
+                   this.refractColor === "yellow" && this.color === "blue"){
+            this.refractColor = "green";
+            return this.refractColor;
         } 
     }
 
