@@ -1,3 +1,9 @@
+const ducktypiumColor = process.argv[2];
+console.log(process.argv[0]);
+console.log(process.argv[1]);
+
+
+
 class Ducktypium {
     constructor(color) {
       // your constructor object here
@@ -57,7 +63,7 @@ class Ducktypium {
   
   // The following lines of code are not required for the solution, but can be
   // used by you to test your solution.
-  const dt = new Ducktypium('red');
+  const dt = new Ducktypium(ducktypiumColor);
   
   console.log(dt.color); // prints 'red'
   
