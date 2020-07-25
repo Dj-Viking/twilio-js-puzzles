@@ -34,6 +34,8 @@ function getFirstAmountSorted(arr, num){
     if (arr.indexOf("third") === 0 && 
         arr.indexOf("second") === 1 && 
         arr.indexOf("first") === 2) {
+        console.log("input array");
+        console.log(arr);
         //1. sort inputArray alphabetically
         var sortedArray = arr.sort();
         console.log("showing sorted array")
@@ -41,7 +43,7 @@ function getFirstAmountSorted(arr, num){
         //2. create array which contains the first N items of the sorted
         //   array - the number of items is provided in num variable
         var slicedArray = sortedArray.slice(num - 2, 2);
-        console.log(slicedArray);
+        
         //3. return the new array you created at step 2
         console.log("showing sliced array")
         console.log(slicedArray)

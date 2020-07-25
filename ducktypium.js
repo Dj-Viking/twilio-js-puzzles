@@ -19,7 +19,7 @@ class Ducktypium {
         } else {
             throw error.message;
         }
-        this.calibrationSequence = []
+        this.calibrationSequence = [];
       
     }
     // your methods here
@@ -64,6 +64,7 @@ class Ducktypium {
   // The following lines of code are not required for the solution, but can be
   // used by you to test your solution.
   const dt = new Ducktypium(ducktypiumColor);
+  
   
   console.log(dt.color); // prints 'red'
   
