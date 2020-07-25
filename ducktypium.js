@@ -1,6 +1,6 @@
 const ducktypiumColor = process.argv[2];
-console.log(process.argv[0]);
-console.log(process.argv[1]);
+// console.log(process.argv[0]);
+// console.log(process.argv[1]);
 
 
 
@@ -20,6 +20,7 @@ class Ducktypium {
             throw error.message;
         }
         this.calibrationSequence = [];
+        console.log(this);
       
     }
     // your methods here
@@ -27,6 +28,7 @@ class Ducktypium {
         let error = new Error("there was an error");
         if (refractColor === "red" || refractColor === "blue" || refractColor === "yellow"){
             this.refractColor = refractColor;
+            console.log(this);
         } else {
             throw error.message;
         }
