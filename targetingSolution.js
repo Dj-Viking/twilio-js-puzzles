@@ -18,11 +18,7 @@ class TargetingSolution {
   
   // The following lines of code are not required for the solution, but can be
   // used by you to test your solution.
-  const m = new TargetingSolution({
-    x: 10,
-    y: 15,
-    z: 900
-  });
+  const m = new TargetingSolution({x: 10, y: 15, z: 900});
 
   console.log(m);
   
